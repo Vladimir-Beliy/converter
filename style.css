@@ -1,4 +1,5 @@
 html, body {
+    background-color: #d6dad66c;
     font: 1em Arial;
     margin: 0;
     width: 100%;
@@ -6,12 +7,18 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    color: #fd9a18;
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #eee, 1px 1px 1px #000;
 }
 
 #main {
+    background-color: #7f837fab;
     width: 380px;
     height: 170px;
-    border: 1px solid black;
+    border: 1px solid #50525096;
     border-radius: 25px;
     margin: 10px;
     margin-bottom: 20px;
@@ -20,13 +27,27 @@ html, body {
 }
 
 #p1 {
-    color: brown;
-    font-size: 15px;
+    margin-top: 22px;
+    margin-bottom: 12px;
 }
 
 .input {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    background-color:#b9bdb952;
     width: 250px;
     height: 30px;
+    text-align: center;
+    color: #3c3d3ccc;
 }
+
+.output {
+    margin: auto;
+    margin-top: 15px;
+    overflow: auto;
+    width: 250px;
+}
+
+
 
 
